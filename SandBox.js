@@ -14,6 +14,8 @@ async function startProgram() {
 	setSpeed(0);
 }
 */
+
+/*
 async function startProgram() {
 
 	setMainLed({ r: 0, g: 0, b: 255 });
@@ -35,3 +37,4 @@ async function startProgram() {
 	}
 
 }
+/*
