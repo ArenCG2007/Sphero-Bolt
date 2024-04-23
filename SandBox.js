@@ -37,4 +37,10 @@ async function startProgram() {
 	}
 
 }
-/*
+*/
+async function startProgram() {
+	await roll(0,30,5)
+	setspeed(0)
+ 
+
+}	
