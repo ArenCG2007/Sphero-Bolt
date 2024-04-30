@@ -5,10 +5,9 @@
 //Program: Maze Competition
 //Program URL:https://edu.sphero.com/program/16788338/edit
 async function startProgram() {
-	// Programmer: Jordan Gibbs - Start Text & Audio Commit - Date:
-
-
-
+	// Programmer: Aren Gay - Start Text & Audio Commit - Date: 4.30.24
+	await scrollMatrixText ("program started", {r: 66, g: 56, b: 255}, 30, true)
+	await speak("program started", true);
 	//Programmer:              - Blue LED Checkpoint Commit - Date:
 
 
