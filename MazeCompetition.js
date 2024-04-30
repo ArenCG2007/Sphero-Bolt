@@ -5,5 +5,35 @@
 //Program: Maze Competition
 //Program URL:https://edu.sphero.com/program/16788338/edit
 async function startProgram() {
-	// Write code here
+	// Programmer: Jordan Gibbs - Start Text & Audio Commit - Date:
+
+
+
+	//Programmer:              - Blue LED Checkpoint Commit - Date:
+
+
+
+	//Programmer:              - Sound One Checkpoint Commit - Date:
+
+
+
+	//Programmer:              - Red LED Checkpoint Commit - Date:
+
+
+
+	//Programmer:              - Sound Two Checkpoint Commit - Date:
+
+
+
+	//Programmer:              - Green LED Checkpoint Commit - Date:
+
+
+
+	//Programmer:              - Purple LED & Sound Three Checkpoint Commit - Date:
+
+
+
+	//Programmer:              -Finish Text & Audio Commit - Date:
+
+
 }
