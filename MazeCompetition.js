@@ -8,12 +8,13 @@ async function startProgram() {
 	// Programmer: Aren Gay - Start Text & Audio Commit - Date: 4.30.24
 	await scrollMatrixText ("program started", {r: 66, g: 56, b: 255}, 30, true)
 	await speak("program started", true);
-	//Programmer: Aren Gay  - Blue LED Checkpoint Commit - Date:
+	//Programmer: Aren Gay  - Blue LED Checkpoint Commit - Date: 5.1.24
 	setMainLed({ r: 0, g: 0, b: 255 });
 	await roll((getHeading() + 0), 70, 2.4);
 	await delay(1);
-	//Programmer:              - Sound One Checkpoint Commit - Date:
-
+	//Programmer:              - Sound One Checkpoint Commit - Date: 5.1.24
+	await roll((getHeading() + 90), 70, 1.45);
+	await Sound.Animal.Alligator.play(true);
 
 
 	//Programmer:              - Red LED Checkpoint Commit - Date:
