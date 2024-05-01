@@ -15,8 +15,6 @@ async function startProgram() {
 	//Programmer:              - Sound One Checkpoint Commit - Date: 5.1.24
 	await roll((getHeading() + 90), 70, 1.45);
 	await Sound.Animal.Alligator.play(true);
-
-
 	//Programmer:              - Red LED Checkpoint Commit - Date:
 
 
