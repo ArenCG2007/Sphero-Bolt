@@ -28,7 +28,7 @@ async function startProgram() {
 	setMainLed({ r: 255, g: 0, b: 0 });
 
 	//Programmer: Aren Gay    - Sound Two Checkpoint Commit - Date: 5.2.2024
-	await roll((getHeading() + 270), 60, 1);
+	await roll((getHeading() + 270), 60, 0.9);
 	await delay(1);
 	await roll((getHeading() + 270), 60, 1.5);
 	await Sound.Animal.Lion.play(true);
@@ -42,9 +42,12 @@ async function startProgram() {
 	await roll((getHeading() - 65), 60, .8);
 	setMainLed({ r: 0, g: 255, b: 0 });
 
-	//Programmer:          - Purple LED & Sound Three Checkpoint Commit - Date:gggg
-
-
+	//Programmer:   Aren Gay    - Purple LED & Sound Three Checkpoint Commit - Date:gggg
+	await roll((getHeading() + 270), 60, 1.3);
+	await delay(1);
+	await roll((getHeading() - 55), 60, 1.2);
+	await Sound.Animal.Bear.play(true);
+	setMainLed({ r: 255, g: 0, b: 255 });
 
 	//Programmer:          - Finish Text & Audio Commit - Date:qwwsdeseee
 
